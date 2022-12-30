@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 $("document").ready(function () {
     $(function () {
@@ -15,6 +17,7 @@ $("document").ready(function () {
     });
 });
 
+>>>>>>> 55c575bfceb24315cdbf4ef84f38f0114fd50d5f
 $("document").ready(function () {
     $(function () {
         $('#myFile').change(function (event) {
@@ -50,7 +53,11 @@ $(document).ready(function () {
                 }
             },
             error: function (data) {
+<<<<<<< HEAD
+                alert("error");
+=======
                 alert("Please wait, or try again in a few minutes!");
+>>>>>>> 55c575bfceb24315cdbf4ef84f38f0114fd50d5f
             }
         });
         event.preventDefault();
